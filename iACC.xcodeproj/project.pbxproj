@@ -47,6 +47,7 @@
 		0D75B1DA272974FE00474471 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1D9272974FE00474471 /* ImageViewController.swift */; };
 		0D75B1DC272975F600474471 /* thisisfine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D75B1DB272975F600474471 /* thisisfine.jpeg */; };
 		0D75B1DE272986B800474471 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1DD272986B800474471 /* ImageClient.swift */; };
+		0D75B1E027299BF500474471 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1DF27299BF500474471 /* WebViewController.swift */; };
 		0D8902992722D42D004037E8 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8902982722D42C004037E8 /* ItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		0D75B1D9272974FE00474471 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		0D75B1DB272975F600474471 /* thisisfine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thisisfine.jpeg; sourceTree = "<group>"; };
 		0D75B1DD272986B800474471 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
+		0D75B1DF27299BF500474471 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		0D8902982722D42C004037E8 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -238,6 +240,7 @@
 				08927BC3268618AC009195BD /* SegmentNavigationViewController.swift */,
 				08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */,
 				0D75B1D9272974FE00474471 /* ImageViewController.swift */,
+				0D75B1DF27299BF500474471 /* WebViewController.swift */,
 				080833DF268F609C00A8099A /* Helpers.swift */,
 				08927BCA268618AC009195BD /* User.swift */,
 				08927BCB268618AC009195BD /* FriendsAPI.swift */,
@@ -375,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08927B932686183A009195BD /* AppDelegate.swift in Sources */,
+				0D75B1E027299BF500474471 /* WebViewController.swift in Sources */,
 				08927BCF268618AC009195BD /* ListViewController.swift in Sources */,
 				08040FFC268B4C1D0062A93B /* MainTabBarController.swift in Sources */,
 				08927BD0268618AC009195BD /* CardAPI.swift in Sources */,

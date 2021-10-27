@@ -19,8 +19,9 @@ class MainTabBarController: UITabBarController {
 //            makeNav(for: makeFriendsList(), title: "Friends", icon: "person.2.fill"),
             makeNav(for: makePostList(), title: "Posts", icon: "list.dash"),
             makeNav(for: makeImageView(), title: "Media", icon: "photo"),
+//            makeNav(for: makeWebView(), title: "WebView", icon: "chevron.left.forwardslash.chevron.right"),
 //            makeTransfersList(),
-            makeNav(for: makeCardsList(), title: "Cards", icon: "creditcard.fill")
+//            makeNav(for: makeCardsList(), title: "Cards", icon: "creditcard.fill")
         ]
     }
 
@@ -40,6 +41,12 @@ class MainTabBarController: UITabBarController {
     private func makeImageView() -> UIViewController {
         let vc = ImageViewController()
         vc.title = "Image"
+        return vc
+    }
+
+    private func makeWebView() -> UIViewController {
+        let vc = WebViewController()
+        vc.title = "WebView"
         return vc
     }
 
@@ -65,7 +72,9 @@ class MainTabBarController: UITabBarController {
     private func makePostList() -> ListViewController {
         let vc = ListViewController()
         vc.title = "Posts"
-        let service = PostListItemsService()
+        let service = PostListItemsService() { item in
+            vc.select(post: item)
+        }
         vc.service = service
         return vc
     }

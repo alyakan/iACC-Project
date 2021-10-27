@@ -116,6 +116,5 @@ extension UITableViewCell {
         }
         detailTextLabel?.text = vm.subtitle
         textLabel?.numberOfLines = 0
-        selectionStyle = .none
     }
 }

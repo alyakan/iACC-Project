@@ -84,6 +84,31 @@ class PostClient {
         }
     }
 
+    func post(withID id: Int, completion: @escaping (Result<Post, Error>) -> Void) {
+        guard let url = URL(string: "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/\(id)") else {
+            completion(.failure(ClientError.invalidUrl))
+            return
+        }
+
+        URLSessionClient().data(url: url) { result in
+            switch result {
+            case .success(let data):
+                do {
+                    print("Data:::\(data)")
+                    // Parse the JSON data
+                    print("Dict:::\(Self.convertToDictionary(text: String(data: data, encoding: .utf8)!) ?? [:])")
+                    let results = try JSONDecoder().decode(Post.self, from: data)
+                    print("Results:::\(results)")
+                    completion(.success(results))
+                } catch {
+                    print("Error:::\(error)")
+                    completion(.failure(error))
+                }
+            case .failure(let error): completion(.failure(error))
+            }
+        }
+    }
+
     static func convertToDictionary(text: String) -> [String: Any]? {
         if let data = text.data(using: .utf8) {
             do {
@@ -108,18 +133,29 @@ extension ItemViewModel {
     }
 }
 
-class PostListItemsService: ItemsService {
+struct PostListItemsService: ItemsService {
     let client = PostClient()
+    let select: (Post) -> Void
     func loadItems(completion: @escaping (Result<[ItemViewModel], Error>) -> Void) {
         client.posts { result in
             DispatchQueue.mainAsyncIfNeeded {
                 completion(result.map({ items in
                     items.map { item in
-                        ItemViewModel(post: item)
+                        ItemViewModel(post: item) {
+                            select(item)
+                        }
                     }
                 }))
             }
         }
+    }
+}
+
+extension ListViewController {
+    func select(post: Post) {
+        let vc = WebViewController()
+        vc.post = post
+        show(vc, sender: self)
     }
 }
 

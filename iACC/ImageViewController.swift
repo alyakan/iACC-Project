@@ -28,6 +28,10 @@ class ImageViewController: UIViewController {
             imageView.trailingAnchor.constraint(greaterThanOrEqualTo: view.trailingAnchor),
             imageView.bottomAnchor.constraint(greaterThanOrEqualTo: view.bottomAnchor),
         ])
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
 
         MediaClient().media(withID: 5) { [weak self] result in
             guard let self = self else { return }
@@ -62,7 +66,10 @@ class ImageViewController: UIViewController {
 
     func updateImageView(with result: Result<UIImage?, Error>) {
         switch result {
-        case .success(let image): imageView.image = image
+        case .success(let image):
+            DispatchQueue.mainAsyncIfNeeded { [weak self] in
+                self?.imageView.image = image
+            }
         case .failure: print("Failed to update image view.")
         }
     }
