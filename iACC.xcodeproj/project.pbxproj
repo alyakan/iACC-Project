@@ -43,6 +43,11 @@
 		08927BD4268618AC009195BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCA268618AC009195BD /* User.swift */; };
 		08927BD5268618AC009195BD /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCB268618AC009195BD /* FriendsAPI.swift */; };
 		08927BD6268618AC009195BD /* NotImplementedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */; };
+		0D75B1D8272968A000474471 /* PostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1D7272968A000474471 /* PostClient.swift */; };
+		0D75B1DA272974FE00474471 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1D9272974FE00474471 /* ImageViewController.swift */; };
+		0D75B1DC272975F600474471 /* thisisfine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D75B1DB272975F600474471 /* thisisfine.jpeg */; };
+		0D75B1DE272986B800474471 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1DD272986B800474471 /* ImageClient.swift */; };
+		0D8902992722D42D004037E8 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8902982722D42C004037E8 /* ItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +101,11 @@
 		08927BCA268618AC009195BD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		08927BCB268618AC009195BD /* FriendsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
 		08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedViewControllers.swift; sourceTree = "<group>"; };
+		0D75B1D7272968A000474471 /* PostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostClient.swift; sourceTree = "<group>"; };
+		0D75B1D9272974FE00474471 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		0D75B1DB272975F600474471 /* thisisfine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thisisfine.jpeg; sourceTree = "<group>"; };
+		0D75B1DD272986B800474471 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
+		0D8902982722D42C004037E8 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,8 +232,12 @@
 				08927B942686183A009195BD /* SceneDelegate.swift */,
 				08040FFB268B4C1D0062A93B /* MainTabBarController.swift */,
 				08927BC5268618AC009195BD /* ListViewController.swift */,
+				0D75B1D7272968A000474471 /* PostClient.swift */,
+				0D75B1DD272986B800474471 /* ImageClient.swift */,
+				0D8902982722D42C004037E8 /* ItemViewModel.swift */,
 				08927BC3268618AC009195BD /* SegmentNavigationViewController.swift */,
 				08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */,
+				0D75B1D9272974FE00474471 /* ImageViewController.swift */,
 				080833DF268F609C00A8099A /* Helpers.swift */,
 				08927BCA268618AC009195BD /* User.swift */,
 				08927BCB268618AC009195BD /* FriendsAPI.swift */,
@@ -231,6 +245,7 @@
 				08927BC8268618AC009195BD /* TransfersAPI.swift */,
 				08927BC6268618AC009195BD /* CardAPI.swift */,
 				080833E1268F69C200A8099A /* ArticlesAPI.swift */,
+				0D75B1DB272975F600474471 /* thisisfine.jpeg */,
 				08927BC22686185C009195BD /* Supporting Files */,
 			);
 			path = iACC;
@@ -341,6 +356,7 @@
 			files = (
 				08927B9F2686183B009195BD /* LaunchScreen.storyboard in Resources */,
 				08927B9C2686183B009195BD /* Assets.xcassets in Resources */,
+				0D75B1DC272975F600474471 /* thisisfine.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,13 +380,17 @@
 				08927BD0268618AC009195BD /* CardAPI.swift in Sources */,
 				08927BD6268618AC009195BD /* NotImplementedViewControllers.swift in Sources */,
 				08927BD5268618AC009195BD /* FriendsAPI.swift in Sources */,
+				0D75B1DA272974FE00474471 /* ImageViewController.swift in Sources */,
 				08927BD1268618AC009195BD /* FriendsCache.swift in Sources */,
+				0D75B1DE272986B800474471 /* ImageClient.swift in Sources */,
 				080833E0268F609C00A8099A /* Helpers.swift in Sources */,
 				08927BCD268618AC009195BD /* SegmentNavigationViewController.swift in Sources */,
 				080833E2268F69C200A8099A /* ArticlesAPI.swift in Sources */,
 				08927B952686183A009195BD /* SceneDelegate.swift in Sources */,
 				08927BD2268618AC009195BD /* TransfersAPI.swift in Sources */,
 				08927BD4268618AC009195BD /* User.swift in Sources */,
+				0D75B1D8272968A000474471 /* PostClient.swift in Sources */,
+				0D8902992722D42D004037E8 /* ItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

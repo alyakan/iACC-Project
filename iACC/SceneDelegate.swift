@@ -3,6 +3,7 @@
 //
 
 import UIKit
+//import iACCTests
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 	var window: UIWindow?
@@ -17,6 +18,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 	}
 	
 	func makeRootViewController() -> MainTabBarController {
-		MainTabBarController()
+        MainTabBarController(friendsCache: cache)
 	}
 }
