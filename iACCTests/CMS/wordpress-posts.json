@@ -1,0 +1,710 @@
+[
+    {
+        "id": 58,
+        "date": "2021-10-28T09:12:19",
+        "date_gmt": "2021-10-28T09:12:19",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=58"
+        },
+        "modified": "2021-10-28T09:12:19",
+        "modified_gmt": "2021-10-28T09:12:19",
+        "slug": "hello",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/58/",
+        "title": {
+            "rendered": "Hello"
+        },
+        "content": {
+            "rendered": "Hello Test\n\n\n<p></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Hello Test</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/58"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=58"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/58/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 60,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/58/revisions/60"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=58"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=58"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=58"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "date": "2021-10-20T12:40:55",
+        "date_gmt": "2021-10-20T12:40:55",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=37"
+        },
+        "modified": "2021-10-25T08:26:06",
+        "modified_gmt": "2021-10-25T08:26:06",
+        "slug": "secret-post",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/37/",
+        "title": {
+            "rendered": "Secret Post"
+        },
+        "content": {
+            "rendered": "<h1>This is <font color=\"red\">RED CONTENT</font></h1>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>This is RED CONTENT</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/37"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=37"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 15,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/37/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 55,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/37/revisions/55"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=37"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=37"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=37"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "date": "2021-10-20T08:10:54",
+        "date_gmt": "2021-10-20T08:10:54",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=27"
+        },
+        "modified": "2021-10-20T08:10:54",
+        "modified_gmt": "2021-10-20T08:10:54",
+        "slug": "charbel",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/27/",
+        "title": {
+            "rendered": "Charbel"
+        },
+        "content": {
+            "rendered": "\n<p>Charbel Content</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Charbel Content</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/27"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=27"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/27/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 29,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/27/revisions/29"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=27"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=27"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=27"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "date": "2021-10-15T14:01:08",
+        "date_gmt": "2021-10-15T14:01:08",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=23"
+        },
+        "modified": "2021-10-15T14:18:40",
+        "modified_gmt": "2021-10-15T14:18:40",
+        "slug": "stay-connected",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/23/",
+        "title": {
+            "rendered": "Stay Connected"
+        },
+        "content": {
+            "rendered": "\n<p>Lorem ipsum dolor sit amet, consectetur acing elit. Aenean esrsel piesn qersl ioinm sersoe non una dolor aecena</p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"alignleft size-full\"><img loading=\"lazy\" width=\"48\" height=\"48\" src=\"https://wordpress.devs.rnd.live.backbaseservices.com/wp-content/uploads/2021/10/facebook-logo.png\" alt=\"\" class=\"wp-image-12\"/></figure></div>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"alignleft size-full\"><img loading=\"lazy\" width=\"48\" height=\"47\" src=\"https://wordpress.devs.rnd.live.backbaseservices.com/wp-content/uploads/2021/10/google-plus-logo.png\" alt=\"\" class=\"wp-image-13\"/></figure></div>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"alignleft size-full\"><img loading=\"lazy\" width=\"48\" height=\"48\" src=\"https://wordpress.devs.rnd.live.backbaseservices.com/wp-content/uploads/2021/10/twitter-logo.png\" alt=\"\" class=\"wp-image-14\"/></figure></div>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Lorem ipsum dolor sit amet, consectetur acing elit. Aenean esrsel piesn qersl ioinm sersoe non una dolor aecena</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/23"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=23"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/23/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 39,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/23/revisions/39"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=23"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=23"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=23"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "date": "2021-10-15T13:29:26",
+        "date_gmt": "2021-10-15T13:29:26",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=9"
+        },
+        "modified": "2021-10-18T11:15:59",
+        "modified_gmt": "2021-10-18T11:15:59",
+        "slug": "contact-us",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/9/",
+        "title": {
+            "rendered": "Contact Us"
+        },
+        "content": {
+            "rendered": "\n<p>Visiting a branch?</p>\n\n\n\n<p>Please make an appointment, we work by appointment only so that you don&#8217;t have to wait around. This also allows us to spread the pressure caused by the corona measures more effectively.</p>\n\n\n\n<p>To make an appointment, call&nbsp;<a href=\"tel:077766654\">0777 666 54</a>&nbsp;(free)</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Visiting a branch? Please make an appointment, we work by appointment only so that you don&#8217;t have to wait around. This also allows us to spread the pressure caused by the corona measures more effectively. To make an appointment, call&nbsp;0777 666 54&nbsp;(free)</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/9"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=9"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/9/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 26,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/9/revisions/26"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=9"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=9"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=9"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "date": "2021-10-15T13:28:40",
+        "date_gmt": "2021-10-15T13:28:40",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=7"
+        },
+        "modified": "2021-10-15T13:28:40",
+        "modified_gmt": "2021-10-15T13:28:40",
+        "slug": "business-info",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/7/",
+        "title": {
+            "rendered": "Business info"
+        },
+        "content": {
+            "rendered": "\n<p><strong>Address</strong></p>\n\n\n\n<p>Jacob Bontiusplaats 9<br>1018 LL, Amsterdam<br>The Netherlands</p>\n\n\n\n<p><strong>Email</strong></p>\n\n\n\n<p><a href=\"mailto:info@backbase.com\">info@backbase.com</a></p>\n\n\n\n<p><strong>Phone</strong></p>\n\n\n\n<p>&nbsp;<a href=\"tel:+31204658888\">+ 31 20 4658888</a></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Address Jacob Bontiusplaats 91018 LL, AmsterdamThe Netherlands Email info@backbase.com Phone &nbsp;+ 31 20 4658888</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/7"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=7"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/7/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 8,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/7/revisions/8"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=7"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=7"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=7"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "date": "2021-09-30T12:04:53",
+        "date_gmt": "2021-09-30T12:04:53",
+        "guid": {
+            "rendered": "https://wordpress.devs.rnd.live.backbaseservices.com/?p=1"
+        },
+        "modified": "2021-09-30T12:04:53",
+        "modified_gmt": "2021-09-30T12:04:53",
+        "slug": "hello-world",
+        "status": "publish",
+        "type": "post",
+        "link": "https://wordpress.devs.rnd.live.backbaseservices.com/1/",
+        "title": {
+            "rendered": "Hello world!"
+        },
+        "content": {
+            "rendered": "\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/1"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/comments?post=1"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/posts/1/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/media?parent=1"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/categories?post=1"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress.devs.rnd.live.backbaseservices.com/wp-json/wp/v2/tags?post=1"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

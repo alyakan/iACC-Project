@@ -17,10 +17,10 @@ struct PostContent: Decodable {
 
 struct Post: Identifiable, Decodable {
     let id: Int
-    let slug: String
+    var slug: String?
     var link: URL?
-    let content: PostContent
-    let publishedDate: String
+    var content: PostContent?
+    var publishedDate: String?
 
     enum CodingKeys: String, CodingKey {
         case id, slug, link, content
@@ -129,8 +129,8 @@ class PostClient {
 
 extension ItemViewModel {
     init(post: Post, selection: @escaping (() -> Void) = {}) {
-        title = post.content.rendered
-        subtitle = post.publishedDate
+        title = post.content?.rendered ?? "N/A"
+        subtitle = post.publishedDate ?? "N/A"
         select = selection
         let data = Data(title.utf8)
         if let attributedString = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) {
