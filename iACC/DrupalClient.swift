@@ -6,7 +6,7 @@ import Foundation
 
 struct DrupalClient {
     func post(withID id: Int, completion: @escaping (Result<Post, Error>) -> Void) {
-        guard let url = URL(string: "https://drupal.devs.rnd.live.backbaseservices.com/jsonapi/node/article") else {
+        guard let url = URL(string: "https://drupal.devs.rnd.live.backbaseservices.com/jsonapi/node/article/8") else {
             completion(.failure(ClientError.invalidUrl))
             return
         }
@@ -17,7 +17,7 @@ struct DrupalClient {
                 do {
                     print("Data:::\(data)")
                     // Parse the JSON data
-                    print("Dict:::\(String(data: data, encoding: .utf8)!.convertToDictionary() ?? [:])")
+                    print("Dict:::\(String(data: data, encoding: .utf8))")
 //                    let results = try JSONDecoder().decode(Post.self, from: data)
 //                    print("Results:::\(results)")
 //                    completion(.success(results))
