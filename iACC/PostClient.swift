@@ -30,8 +30,14 @@ struct Post: Identifiable, Decodable {
 }
 
 class URLSessionClient {
-    func data(url: URL, _ completion: @escaping (Result<Data, Error>) -> Void) {
-        URLSession.shared.dataTask(with: url) { data, response, error in
+    func data(url: URL, headers: [String: String]? = nil, _ completion: @escaping (Result<Data, Error>) -> Void) {
+        var request = URLRequest(url: url)
+        if let headers = headers {
+            for (key, val) in headers {
+                request.addValue(val, forHTTPHeaderField: key)
+            }
+        }
+        URLSession.shared.dataTask(with: request) { data, response, error in
 
             if let error = error {
                 print("Error:::\(error)")

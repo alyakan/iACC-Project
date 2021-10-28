@@ -43,6 +43,7 @@
 		08927BD4268618AC009195BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCA268618AC009195BD /* User.swift */; };
 		08927BD5268618AC009195BD /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCB268618AC009195BD /* FriendsAPI.swift */; };
 		08927BD6268618AC009195BD /* NotImplementedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */; };
+		0D51F1A9272AAD68000F41B5 /* DrupalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51F1A8272AAD68000F41B5 /* DrupalClient.swift */; };
 		0D75B1D8272968A000474471 /* PostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1D7272968A000474471 /* PostClient.swift */; };
 		0D75B1DA272974FE00474471 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75B1D9272974FE00474471 /* ImageViewController.swift */; };
 		0D75B1DC272975F600474471 /* thisisfine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D75B1DB272975F600474471 /* thisisfine.jpeg */; };
@@ -102,6 +103,7 @@
 		08927BCA268618AC009195BD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		08927BCB268618AC009195BD /* FriendsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
 		08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedViewControllers.swift; sourceTree = "<group>"; };
+		0D51F1A8272AAD68000F41B5 /* DrupalClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrupalClient.swift; sourceTree = "<group>"; };
 		0D75B1D7272968A000474471 /* PostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostClient.swift; sourceTree = "<group>"; };
 		0D75B1D9272974FE00474471 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		0D75B1DB272975F600474471 /* thisisfine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thisisfine.jpeg; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				08927BC5268618AC009195BD /* ListViewController.swift */,
 				0D75B1D7272968A000474471 /* PostClient.swift */,
 				0D75B1DD272986B800474471 /* ImageClient.swift */,
+				0D51F1A8272AAD68000F41B5 /* DrupalClient.swift */,
 				0D8902982722D42C004037E8 /* ItemViewModel.swift */,
 				08927BC3268618AC009195BD /* SegmentNavigationViewController.swift */,
 				08927BCC268618AC009195BD /* NotImplementedViewControllers.swift */,
@@ -389,6 +392,7 @@
 				0D75B1DE272986B800474471 /* ImageClient.swift in Sources */,
 				080833E0268F609C00A8099A /* Helpers.swift in Sources */,
 				08927BCD268618AC009195BD /* SegmentNavigationViewController.swift in Sources */,
+				0D51F1A9272AAD68000F41B5 /* DrupalClient.swift in Sources */,
 				080833E2268F69C200A8099A /* ArticlesAPI.swift in Sources */,
 				08927B952686183A009195BD /* SceneDelegate.swift in Sources */,
 				08927BD2268618AC009195BD /* TransfersAPI.swift in Sources */,
